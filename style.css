@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Cairo', Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto);
+  gap: 5px;
+  align-content: center;
+}
+
+li {
+  display: block;
+  font-weight: 700;
+  background-color: darkorange;
+  color: black;
+  padding: 10px;
+  border-radius: 5%;
+  width: 200px;
+  margin: auto;
+  width: 100%;
+}
+
+li span:last-child {
+  color: #ffff;
+  display: block;
+}
+
+.title1,
+.title2,
+.title3,
+.title4 {
+  visibility: hidden;
+}
+
+.card ul {
+  width: 100%;
+}
